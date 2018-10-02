@@ -1,0 +1,13 @@
+<p>
+  Pemrograman Web Lanjut!
+</p>
+
+<button class = "btn btn-primary"
+(click)=" onCreationStatus()">Tampilkan Detail</button><br>
+{{tulisan}}
+
+<p 
+[ngClass] = "{online: minggu > 4}"
+[ngStyle] = "{backgroundColor: minggu > 4? 'brown' : 'transparant'}"
+*ngFor="let minggu of array">{{ minggu }}</p>
+
