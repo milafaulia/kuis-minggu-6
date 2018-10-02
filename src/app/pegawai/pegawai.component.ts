@@ -7,7 +7,7 @@ import{ Pegawai } from '../shared/pegawai';
   styleUrls: ['./pegawai.component.css']
 })
 export class PegawaiComponent implements OnInit {
-  daftarPegawai: Pegawai[] = [];
+  daftarPegawai:Pegawai[] = [];
   nama = '';
   nip = '';
   alamat = '';
@@ -17,6 +17,7 @@ export class PegawaiComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  
   }
 
   tambahPegawai(){
